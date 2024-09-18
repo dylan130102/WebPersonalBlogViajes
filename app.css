@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.contenedor {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_link {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    gap: 40px;
+}
+
+.header_link_img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 5px 0 0 4em;
+}
+
+.header_lista {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20em 0 0;
+    gap: 50px;
+}
+
+.header_lista_elemento {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+}
+
+.banner_contenedor_header {
+    position: relative;
+}
+
+.banner_img {
+    width: 100%;
+    height: 35em;
+    object-fit: cover;
+}
+
+.banner_titulo_texto {
+    position: absolute;
+    max-width: 550px;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.banner_titulo {
+    margin-bottom: 0.5em;
+}
+
+.banner_titulo_subrayado {
+    height: 3px;
+    width: 6em;
+    background-color: #B8001F;
+}
+
+.banner_texto_parrafo {
+    margin-top: 0.5em;
+}
+
+.banner_contenedor_body {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.banner_body_titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.titulo_contenedor_body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 1em;
+}
+
+.banner_stitulo_subrayado {
+    height: 3px;
+    width: 9em;
+    background-color: #B8001F;
+}
+
+.banner_testimonios {
+    display: flex;
+    justify-content: center;
+    gap: 20em;
+    margin-top: 4em;
+    margin-bottom: 3em;
+    max-width: 1400px;
+}
+
+.banner_testimonio_texto {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 1em;
+    line-height: 30px;
+    max-width: 900px;
+    font-size: 20px;
+}
+
+.banner_testimoniosA {
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    gap: 20px;
+}
+
+.banner_testimonio_texto2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 1em;
+    line-height: 30px;
+    max-width: 1600px;
+    font-size: 20px;
+}
+
+.banner_testimonio_L {
+    max-width: 1600px;
+    width: 100%;
+    height: 450px;
+    display: block;
+    margin: 20px auto;
+}
+
+.banner_seccion_info {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 2em;
+    line-height: 30px;
+}
+
+.banner_seccion_titulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 0.5em;
+}
+
+.banner_seccion_info p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 1em;
+    line-height: 30px;
+    max-width: 1600px;
+    font-size: 20px;
+}
+
+.banner_seccion_h {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.banner_seccion_tituloH {
+    text-align: center;
+    width: 570px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.banner_seccion_subrayado {
+    height: 3px;
+    width: 12em;
+    background-color: #B8001F;
+    margin-bottom: 3em;
+}
+
+.banner_seccion_ciudades {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5em;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.banner_ciudad-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 30%;
+}
+
+.banner_ciudad-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.banner_ciudad-info {
+    padding: 20px;
+}
+
+.banner_ciudad-info h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.banner_ciudad-info p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    color: #333;
+}
+
+.btn-detalles {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #B8001F;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-detalles:hover {
+    background-color: #900019;
+}
+
+.banner_footer {
+    background-color: black;
+    padding: 40px 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+}
+
+.banner_seccion_infoC {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer_link_img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.banner_seccion_infoC section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.banner_seccion_infoC p {
+    font-size: 14px;
+    margin: 3px 0;
+    line-height: 1.6;
+}
+
+.footer_redes_sociales {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer_redes_sociales p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer_iconos {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.footer_iconos img {
+    width: 25px;
+    height: 25px;
+}
+
+.banner_footer {
+    background-color: black;
+    padding: 20px 50px;
+    margin-top: 3em;
+}
+
+.banner_seccion_infoF {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.banner_seccion_infoC {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_seccion_infoC section {
+    margin-bottom: 10px;
+}
+
+.footer_link_img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.footer_redes_sociales {
+    text-align: right;
+}
+
+.footer_iconos {
+    display: flex;
+    gap: 10px;
+}
+
+.footer_iconos img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer_redes_sociales p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
